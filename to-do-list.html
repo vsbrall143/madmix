@@ -218,12 +218,12 @@ a,
                     /* Removes native scrollbar */
                     .no-scrollbar {
                         -ms-overflow-style: none;
-                        // IE 10+ overflow: -moz-scrollbars-none;
-                        // Firefox }
+                        overflow: -moz-scrollbars-none;
+                         }
 
-                    .no-scrollbar: :-webkit-scrollbar {
+                    .no-scrollbar :-webkit-scrollbar {
                         display: none;
-                        // Safari and Chrome }
+                    }
 
                     /* Adds inline flex display */ .display-inlineflex {
                         display: inline-flex;
